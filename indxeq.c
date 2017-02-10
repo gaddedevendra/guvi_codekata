@@ -14,7 +14,7 @@ int main()
   int i,n,t;
   int* a;
   scanf("%d",&n);
-  if(n<0)
+  if(n < 0)
   {return -1;}
   else{
   a=(int*)malloc(sizeof(int)*n);
