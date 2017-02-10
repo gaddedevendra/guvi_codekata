@@ -15,10 +15,11 @@ int main()
   int* a;
   scanf("%d",&n);
   if(n<0)
-  return -1;
+  {return -1;}
+  else{
   a=(int*)malloc(sizeof(int)*n);
   for(i=0;i<n;i++)
   scanf("%d",&a[i]);
   t=ind(a,n);
-  return t;
+  return t;}
 }
